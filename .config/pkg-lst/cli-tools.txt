@@ -15,3 +15,4 @@ zip
 unzip
 wget
 tree
+less
