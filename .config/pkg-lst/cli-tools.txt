@@ -1,0 +1,17 @@
+htop
+ripgrep
+fd
+bat
+imv
+highlight
+colordiff
+exa
+fzf
+jq
+yq
+hq
+rsync
+zip
+unzip
+wget
+tree

@@ -1,0 +1,16 @@
+sway
+swaybg
+swaylock
+swayidle
+waybar
+wofi
+brightnessctl
+grim
+slurp
+pavucontrol
+foot
+xorg-xwayland
+mako
+i3status-rust
+wl-clipboard
+xdg-utils

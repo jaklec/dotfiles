@@ -1,0 +1,5 @@
+firefox
+hunspell-en_US
+libnotify
+speech-dispatcher
+xdg-desktop-portal

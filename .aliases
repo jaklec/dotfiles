@@ -1,0 +1,17 @@
+alias lsalias="grep "alias" ~/.aliases"
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+alias grep="grep --color=auto"
+
+alias timestamp="date +%s%N|cut -b1-13"
+alias isodate="date +\"%Y-%m-%dT%H:%M:%S%z\""
+
+alias imv="imv -b ffffff"
+
+alias cat="bat --theme='OneHalfDark'"
+alias highlight="highlight --style pablo"
+
+alias diff="colordiff"
+alias ls="exa"
+
+alias serve="python -m http.server"

@@ -1,0 +1,4 @@
+git
+tig
+lazygit
+diff-so-fancy

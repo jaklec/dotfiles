@@ -1,0 +1,7 @@
+ttf-fira-code
+ttf-fira-mono
+ttf-fira-sans
+ttf-firacode-nerd
+ttf-ubuntu-font-family
+powerline-fonts
+otf-font-awesome

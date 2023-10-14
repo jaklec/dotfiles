@@ -1,0 +1,4 @@
+neovim
+tree-sitter-cli
+nano
+vim

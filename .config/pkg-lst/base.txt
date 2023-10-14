@@ -1,0 +1,8 @@
+amd-ucode
+base
+base-devel
+btrfs-progs
+efibootmgr
+linux
+linux-firmware
+neofetch
