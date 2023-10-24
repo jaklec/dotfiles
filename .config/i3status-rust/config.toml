@@ -21,7 +21,7 @@ critical_mem = 90
 [[block]]
 block = "cpu"
 interval = 1
-format = " $icon $utilization $frequency $barchart "
+format = " $icon $utilization $frequency "
 
 [[block]]
 block = "load"
