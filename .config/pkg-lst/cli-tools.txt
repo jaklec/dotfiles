@@ -16,3 +16,4 @@ unzip
 wget
 tree
 less
+tealdeer
