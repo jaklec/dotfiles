@@ -1,2 +1,4 @@
 openssh
 networkmanager
+sshfs
+jnettop
