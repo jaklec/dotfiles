@@ -17,3 +17,4 @@ wget
 tree
 less
 tealdeer
+inotify-tools
