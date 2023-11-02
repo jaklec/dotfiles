@@ -1,0 +1,9 @@
+[Unit]
+Description=Watch and Scan Downloads Folder
+
+[Service]
+Type=simple
+ExecStart=/home/jakob/.local/bin/avscan.sh
+
+[Install]
+WantedBy=default.target
