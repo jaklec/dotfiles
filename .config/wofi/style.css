@@ -67,7 +67,7 @@ margin: 0px 4px 0px 4px;
 
 #entry:selected {
 color: @text;
-background-color: @mauve;
+background-color: @sky;
 padding: 7px;
 }
  
@@ -93,7 +93,7 @@ color: @text;
 }
 
 #input:focus {
-  border: 1px solid @mauve;
+  border: 1px solid @sky;
 }
 
 #inner-box {
@@ -105,7 +105,7 @@ border-radius: 0px;
 #outer-box {
 background-color: @crust;
 border-radius: 15px;
-border: 1px solid @mauve;
+border: 1px solid @sky;
 padding: 25px;
 box-shadow: 0px 0px 3px 1px @base;
 margin: 25px;
