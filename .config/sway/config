@@ -44,11 +44,10 @@ output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 # resumed. It will also lock your screen before your computer goes to sleep.
 
 # Start swayidle
-exec_always sh -c 'killall -q swayidle; killall -q swaylock; sleep 0.5; swayidle -w \
-    timeout 300 "swaylock -f --screenshots --clock --indicator --effect-blur 7x5" \
-    timeout 360 "swaymsg output * power off" resume "swaymsg output * power on" \
-    before-sleep "swaylock -f --screenshots --clock --indicator --effect-blur 7x5"'
-    #before-sleep "swaylock -f --clock --indicator -c 1a1a2e"'
+exec swayidle -w \
+    timeout 300 'swaylock -f --screenshots --indicator --effect-blur 7x5' \
+    timeout 360 'brightnessctl -s set 0' resume 'brightnessctl -r' \
+    before-sleep 'swaylock -f --screenshots --indicator --effect-blur 7x5'
 
 ### Input configuration
 #
@@ -248,6 +247,9 @@ bar {
         urgent_workspace   #f38ba8 #1e1e2e #cdd6f4
     }
 }
+
+# Set brightness based on AC/battery state
+exec ~/.config/sway/power-brightness.sh
 
 # Notifications
 exec mako
