@@ -1,0 +1,22 @@
+font=Fira Code 11
+background-color=#1e1e2eeb
+text-color=#cdd6f4ff
+border-color=#88b0d166
+border-size=2
+border-radius=12
+padding=12
+margin=12
+width=380
+max-visible=3
+default-timeout=5000
+icon-path=/usr/share/icons/Papirus-Dark
+max-icon-size=48
+
+[urgency=low]
+background-color=#1e1e2ecc
+border-color=#88b0d133
+
+[urgency=critical]
+background-color=#1e1e2eeb
+border-color=#f38ba8aa
+default-timeout=0
